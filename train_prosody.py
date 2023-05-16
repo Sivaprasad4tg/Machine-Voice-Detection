@@ -7,8 +7,8 @@ from sklearn.metrics import accuracy_score
 import joblib
 
 # Define constants
-HUMAN_DATA_DIR = "D:/programs/project/focus/voice/database/human"
-MACHINE_DATA_DIR = "D:/programs/project/focus/voice/database/machine"
+HUMAN_DATA_DIR = "database/human"
+MACHINE_DATA_DIR = "database/machine"
 AUDIO_DURATION = 3
 FEATURES = ['tempo', 'chroma', 'mfcc', 'rms']
 
