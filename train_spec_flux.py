@@ -11,10 +11,10 @@ def extract_spectral_flux(audio_file):
     return spectral_flux
 
 # Path to the directory containing human voice audio files
-human_voice_dir = "D:/programs/project/focus/voice/database/human"
+human_voice_dir = "database/human"
 
 # Path to the directory containing machine voice audio files
-machine_voice_dir = "D:/programs/project/focus/voice/database/machine"
+machine_voice_dir = "database/machine"
 
 max_length = 0  # Maximum length of spectral flux feature vectors
 
