@@ -16,8 +16,8 @@ def extract_amplitude_envelope(audio_path):
     return np.mean(S, axis=1)
 
 # Define paths to human and machine voice datasets
-human_path = "D:/programs/project/focus/voice/database/human"
-machine_path = "D:/programs/project/focus/voice/database/machine"
+human_path = "database/human"
+machine_path = "database/machine"
 
 # Load human and machine voice datasets
 human_files = os.listdir(human_path)
