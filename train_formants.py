@@ -18,8 +18,8 @@ def extract_formants(audio_path):
     return formants
 
 # Define paths to human and machine voice datasets
-human_path = "D:/programs/project/focus/voice/training data/human"
-machine_path = "D:/programs/project/focus/voice/training data/machine"
+human_path = "database/human"
+machine_path = "database/machine"
 
 # Load human and machine voice datasets
 human_files = os.listdir(human_path)
