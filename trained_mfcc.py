@@ -7,8 +7,8 @@ from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 
 # Define paths to human and machine voice datasets
-human_path = "D:/programs/project/focus/voice/training data/human"
-machine_path = "D:/programs/project/focus/voice/training data/machine"
+human_path = "database/human"
+machine_path = "database/machine"
 
 # Define function to extract MFCC features from audio files
 def extract_features(audio_path):
