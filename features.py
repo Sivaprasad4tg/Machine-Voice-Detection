@@ -52,7 +52,7 @@ def mfc(path):
 def prosody(path):
     features = train_prosody.extract_features(path)
 
-    model = joblib.load('prosody.joblib')
+    model = joblib.load('prosody_1.joblib')
 
     prediction = model.predict([features])[0]
 
