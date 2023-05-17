@@ -1,4 +1,3 @@
-# Machine-Voice-Recognition
+# Machine-Voice-Detection
 
-Machine voice recognition, as the word explains, is a software to identify the specific input voice as machine voice or human voice. This is achieved with the help of the comparison of different components of voice. Some of the compared features are MFCC(Mel Frequency Cepstral Coefficients), Formants, Spectral centroid, ZCR(Zero Crossing Rate), Pitch contour, Spectral flatness ect.
-These factors are compared within the limited band and explain the features of the voice.
+This is a set of  program to identify whether a specific input voice is machine voice or not.This is achieved with the help of comparison of different features of voice, namely MFCC(Mel Frequency Cepstral Coefficients), Formants, Spectral Centroid, Prosody, Spectral Flux and Amplitude Envelope.This features are compared with the pretrained data to classify it into machine voice or normal voice
